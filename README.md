@@ -24,6 +24,8 @@ spectral-image-reconstruction/
 |  |- original.png
 |  |- reconstruction_k50.png
 |  |- segmentation_c5.png
+|- notebooks/
+|  |- spectral_demo.ipynb
 |- main.py
 |- requirements.txt
 |- README.md
@@ -54,9 +56,12 @@ python main.py --size 64 --neighbors 20 --reconstruction-k 75 --clusters 6
 
 Running the script saves images to the `outputs/` folder so the results are easy to include in a GitHub showcase.
 
+## Notebook demo
+
+For a more visual walkthrough, open `notebooks/spectral_demo.ipynb`. It shows the graph setup, reconstruction with different values of `k`, and the segmentation step in a more explanation-friendly format.
+
 ## Next improvements
 
 - Compare several reconstruction values of `k`
-- Add a notebook with visual explanations
 - Measure how graph parameters affect quality
 - Add side-by-side plots directly to the README
