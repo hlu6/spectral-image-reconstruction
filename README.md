@@ -58,7 +58,7 @@ Running the script saves images to the `outputs/` folder so the results are easy
 
 ## Notebook demo
 
-For a more visual walkthrough, open `notebooks/spectral_demo.ipynb`. It shows the graph setup, reconstruction with different values of `k`, and the segmentation step in a more explanation-friendly format.
+For a more visual walkthrough, open `notebooks/spectral_demo.ipynb`. It shows the graph setup, reconstruction with different values of `k`, and the segmentation step in a more explanation-friendly format. The notebook also includes a simple Google Colab setup cell so it can pull the repo and run there.
 
 ## Next improvements
 
